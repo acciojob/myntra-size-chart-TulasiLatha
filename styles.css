@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+table,tbody,thead,th,td{
+	border: 1px solid black;
+	border-collapse:collapse;
+	text-align:left;
+	padding:10px;
+	
+	
+}
+th,thead{
+	text-align:left;
+	width:200px;
+}
+thead{
+	background-color:lightblue;
+	
+}
+td{
+	text-align:right;
+}
